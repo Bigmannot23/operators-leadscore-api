@@ -1,0 +1,2 @@
+sk-test-operatoros-01
+sk-live-secret-123
