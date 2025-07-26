@@ -1,0 +1,27 @@
+{
+  "name": "Operators Leadscore API",
+  "description": "Quickly score leads with a simple, secure API. This FastAPI microservice accepts contact details and returns a quality score to prioritize outreach.",
+  "usage": [
+    "Clone this repository and install dependencies.",
+    "Run the FastAPI app using Uvicorn.",
+    "Request an API key via the provided script or admin endpoint.",
+    "Call `/score` with your API key and lead data to receive a score."
+  ],
+  "architecture": [
+    "Endpoint `/score` accepts lead information (name, company, etc.) and returns a 0\u2013100 score.",
+    "API key management controls access via the `x-api-key` header.",
+    "Integration ready: easy to plug into CRMs or other systems with JSON responses.",
+    "Customizable: swap out the scoring logic for your own model or heuristics."
+  ],
+  "inputs": "Project-specific inputs (see usage)",
+  "outputs": "Project-specific outputs (see usage)",
+  "tags": [
+    "operators",
+    "leadscore",
+    "api"
+  ],
+  "links": {
+    "repository": "https://github.com/Bigmannot23/operators-leadscore-api",
+    "documentation": "OPERATOR_README.md"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "model_name": "default_scoring_model.pkl",
+  "api_key_required": true,
+  "score_range": [
+    0,
+    100
+  ]
+}
